@@ -135,7 +135,7 @@ jobs:
           path: dist
 
   build_wheels:
-    name: Build wheels on ${{ matrix.os }}
+    name: Build wheels for musllinux
     runs-on: ubuntu-latest
 
     env:
